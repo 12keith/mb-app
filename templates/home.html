@@ -1,0 +1,15 @@
+<h1>Message Board homepage</h1>
+<ul>
+    {% for post in object_list %}
+
+      <li>{{ post }}</li>
+    {% endfor %}
+
+</ul>
+<ul>
+    {% for post in all_posts_list %}
+
+       <li>{{ post }}</li> 
+    {% endfor %}      
+    
+</ul>
